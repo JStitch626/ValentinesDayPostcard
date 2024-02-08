@@ -1,0 +1,61 @@
+.page {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #000;
+  background-image: url(../images/notepad.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  margin: 0;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header__title {
+  color: #fff;
+  font-size: 60px;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 5px #1111114c;
+}
+
+.content {
+}
+/* .header {
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.header__footer {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 224px;
+  padding: 60px 102px 60px 80px;
+} */
