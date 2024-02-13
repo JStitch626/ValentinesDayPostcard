@@ -6,6 +6,10 @@
   padding: 20px 0;
 }
 
+.footer__text {
+  margin: 15px;
+}
+
 @media screen and (max-width: 780px) {
   .footer {
     margin-top: 30px;
