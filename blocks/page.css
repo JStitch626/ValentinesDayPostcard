@@ -7,16 +7,19 @@
 }
 
 .page__content {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   background-image: url(../images/whiteWoodHorizontal.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   overflow-x: hidden;
-  overflow-y: hidden;
+  opacity: 0.5;
 }
 
 .page__section {
-  color: #413f3f;
+  color: #303030;
   font-family: "Satisfy", "Georgia", serif;
   text-shadow: 1px 2px 5px #1111114c;
   width: 880px;

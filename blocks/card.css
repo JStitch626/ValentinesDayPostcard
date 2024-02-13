@@ -20,6 +20,12 @@
   left: 230px;
 }
 
+@media screen and (max-width: 1160px) {
+  .card__text {
+    padding: 10px 0 20px;
+  }
+}
+
 @media screen and (max-width: 630px) {
   .card {
     font-size: 25px;
