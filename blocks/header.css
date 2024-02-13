@@ -14,8 +14,20 @@
   font-size: 50px;
   font-family: "Satisfy", "Georgia", serif;
   text-shadow: 1px 2px 5px #1111114c;
-  margin: 0;
-  padding: 30px 0 50px;
+  margin: 0 auto;
+  padding: 30px 0 40px;
   position: relative;
   left: 25px;
+}
+
+@media screen and (max-width: 643px) {
+  .header__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .header__title {
+    padding: 25px 0;
+  }
 }
