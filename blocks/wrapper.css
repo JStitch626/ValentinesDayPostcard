@@ -1,5 +1,4 @@
 .wrapper {
-  width: 880px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 90px;
@@ -7,23 +6,23 @@
   padding: 0;
 }
 
-.wrapper_image_1 {
+.wrapper__image_1 {
   width: 60px;
   height: 60px;
   transform: rotate(32deg);
   position: relative;
   bottom: 300px;
-  left: 880px;
+  left: 1320px;
 }
 
-.wrapper_image_2 {
+.wrapper__image_2 {
   width: 100px;
   height: 100px;
   position: relative;
   right: 50px;
 }
 
-.wrapper_image_3 {
+.wrapper__image_3 {
   width: 250px;
   height: 250px;
   position: relative;
