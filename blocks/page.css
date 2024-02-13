@@ -1,0 +1,25 @@
+.page {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #eae5d3;
+}
+
+.page__content {
+  /* background-image: url(../images/whiteWood.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6; */
+  color: #413f3f;
+  font-family: "Satisfy", "Georgia", serif;
+  text-shadow: 1px 2px 5px #1111114c;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.page__section {
+  color: #413f3f;
+  font-family: "Satisfy", "Georgia", serif;
+  text-shadow: 1px 2px 5px #1111114c;
+}
